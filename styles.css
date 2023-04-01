@@ -1,0 +1,60 @@
+html, body {
+   width:60%;
+   margin: 0, auto;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-left: 19%;
+   padding-top: 10%;
+   background-color: rgb(119, 119, 184);
+   
+}
+
+h1 {
+    color: rgba(58, 28, 28, 0.632);
+    text-align: center;
+    padding-right: 15%;
+}
+
+.container {
+    width: 80%;
+    padding-left: 10%;              
+}
+
+#inputfield {
+   width: 300px;
+   height: 40px;
+   border: 2px solid black;
+   vertical-align: middle;
+   font-size: 15px;
+   padding-left: 20px;
+   color: skyblue;
+   background-color: white;
+}
+
+#inputfield, ::placeholder {
+    color: skyblue;
+}
+
+#addbutton {
+    width: 50px;
+    height: 40px;
+    font-size: 15px;
+    vertical-align: middle;
+    border: 2px solid black;
+    color: red;
+    background-color: skyblue;
+}
+
+#addbutton:hover {
+    background-color: white;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
