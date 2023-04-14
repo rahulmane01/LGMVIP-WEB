@@ -1,60 +1,109 @@
-html, body {
-   width:60%;
-   margin: 0, auto;
-   font-family: Arial, Helvetica, sans-serif;
-   padding-left: 19%;
-   padding-top: 10%;
-   background-color: rgb(119, 119, 184);
-   
+body {
+  text-align: center;
+  padding-left: 35%;
 }
 
 h1 {
-    color: rgba(58, 28, 28, 0.632);
-    text-align: center;
-    padding-right: 15%;
+    padding-right: 40%;
+    text-decoration: underline;
+    color: purple;
 }
 
-.container {
-    width: 80%;
-    padding-left: 10%;              
-}
-
-#inputfield {
-   width: 300px;
-   height: 40px;
-   border: 2px solid black;
-   vertical-align: middle;
-   font-size: 15px;
-   padding-left: 20px;
-   color: skyblue;
-   background-color: white;
-}
-
-#inputfield, ::placeholder {
-    color: skyblue;
-}
-
-#addbutton {
-    width: 50px;
-    height: 40px;
-    font-size: 15px;
-    vertical-align: middle;
-    border: 2px solid black;
-    color: red;
-    background-color: skyblue;
-}
-
-#addbutton:hover {
-    background-color: white;
-}
-
-.to-dos {
-    margin-top: 25px;
-}
-
-.paragraph-styling {
+.container { 
+    height: 300px;
+    width: 450px;
+    background-color: brown;
+    color: #fff;
+    padding: 10px;
+    border: solid 3px black;
     margin: 0;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.address {
+    width: 50%;
+    padding: 0.5rem;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    padding-right: 40%;
+    border: snow;
+    font-size: 100%;
+}
+.roll {
+    width: 50%;
+    padding: 0.5rem;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    padding-right: 40%;
+    border: snow;
+    font-size: 100%;
+}
+.name {
+    width: 50%;
+    padding: 0.5rem;
+    color: black;
+    font-weight: 800;
+    padding-right: 40%;
+    border: snow;
+    font-size: 100%;
+}
+.college {
+    width: 50%;
+    padding: 0.5rem;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    padding-right: 40%;
+    border: snow;
+    font-size: 100%;
+}
+
+.email {
+    width: 50%;
+    padding: 0.5rem;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    padding-right: 40%;
+    border: snow;
+    font-size: 100%;
+}
+
+.output {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5em;
+    justify-items: center;
+    padding-right: 40%;
+    border: snow;
+    padding-top: 10%;
+    padding-top: 20%;
+}
+
+.addData {
+    text-align: center;
+    width: 70%;
+    height: auto;
+    padding: 1em;
+    background-color: skyblue;
+    box-shadow: rgb(62, 36, 36);
+    text-align: center;
+}
+
+@media all and (max-width:400px) {
+    .container {
+        padding: 0.4em;
+    }
+    .registration {
+        padding: 0.5em;
+    }
+    .output {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5em;
+        justify-items: center;
+    }
 }

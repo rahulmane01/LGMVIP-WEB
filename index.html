@@ -3,18 +3,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
     <link rel="stylesheet" href="styles.css">
-    <title>TODO LIST</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
 </head>
 <body>
-    <h1>TODO List</h1>
+    <h1>Student Enrollment Form</h1>
     <div class="container">
-        <input id = "inputfield" type="text" placeholder="What Do You Want To Do....">
-        <button id="addbutton">Add</button>
-        <div class="to-dos" id="todocontainer"></div>
+
+        <hr>
+    
+        <label for="name"><b>Name:</b></label>
+        <input type="text" placeholder="Enter name" name="Name" id="name" required> <br> <br>
+    
+        <label for="email"><b>Email:</b></label>
+        <input type="email" placeholder="Enter Email" name="Email" id="email" required> <br> <br>
+    
+        <label for="college"><b>College:</b></label>
+        <input type="text" placeholder="College Name" name="College" id="college" required> <br> <br>
+
+        <label for="roll"><b>Roll No:</b></label>
+        <input type="text" placeholder="Your Roll No" name="Roll" id="roll" required> <br> <br>
+
+        <label for="address"><b>Address:</b></label>
+        <input type="text" placeholder="Your Address" name="Address" id="address" required> <br> <br>
+        <hr>
+    
+        <button type="submit" class="submit">Register</button>
+    
+      <div class="output">
+
+      </div>
     </div>
-    <div>
-    </div>
-    <script src="index.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
